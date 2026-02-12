@@ -34,10 +34,10 @@ uploaded_file = st.file_uploader("Upload your test CSV file", type=["csv"])
 if uploaded_file is not None:
     test_df = pd.read_csv(uploaded_file)
     
-    # Assume 'Churn_Yes' is the target column
-    if 'Churn_Yes' in test_df.columns:
-        X_test = test_df.drop('Churn_Yes', axis=1)
-        y_true = test_df['Churn_Yes']
+    # Assume 'Churn' is the target column
+    if 'Churn' in test_df.columns:
+        X_test = test_df.drop('Churn', axis=1)
+        y_true = test_df['Churn']
         
         # Load assets
         model, scaler = load_assets(model_option)
@@ -79,6 +79,6 @@ if uploaded_file is not None:
         st.write(result_df.head(10))
         
     else:
-        st.error("The uploaded CSV must contain a 'Churn_Yes' column for evaluation.")
+        st.error("The uploaded CSV must contain a 'Churn' column for evaluation.")
 else:
     st.info("Please upload a CSV file to begin.")
