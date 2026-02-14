@@ -1,8 +1,8 @@
-a) Problem Statement:
+**a) Problem Statement:**
 
 The objective of this project is to predict customer attrition (churn) for a telecommunications company. By analyzing customer demographics, account information, and service usage patterns, we aim to identify individuals likely to cancel their subscriptions. This allows the business to implement proactive retention strategies, reducing revenue loss and improving customer lifetime value.
 
-b) Dataset description:
+**b) Dataset description:**
 
 - **Source:** Kaggle - Telco Customer Churn Dataset
 - **Target Variable:** Churn (Yes/No)
@@ -10,7 +10,7 @@ b) Dataset description:
 - **Feature Size:** 19 features (initially), expanded via One-Hot Encoding to meet the assignment requirement of ≥12 features.
 - **Key Features:** Tenure, Monthly Charges, Total Charges, Contract Type (Month-to-month, One year, Two year), Internet Service (DSL, Fiber optic), and Payment Method.
 
-c) Models Used & Comparison Table
+**c) Models Used & Comparison Table**
 
 | ML Model Name |	Accuracy |	AUC |	Precision |	Recall |	F1 |	MCC |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -21,7 +21,7 @@ c) Models Used & Comparison Table
 | Random Forest (Ensemble) |	0.7578 |	0.7849 |	0.5350 |	0.6809 |	0.5992 |	0.4357 |
 | XGBoost (Ensemble) |	0.7621 |	0.7946 |	0.5629 |	0.4706 |	0.5126 |	0.3594 |
 
-d) Observation about models' performances
+**d) Observation about models' performances**
 
  | ML Model Name | Observation about model performance |
  | :--- | :--- |
