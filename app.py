@@ -15,19 +15,19 @@ st.title("📞 Telco Customer Churn Prediction App")
 st.markdown("Download the sample test data, then upload it to evaluate performance.")
 
 # --- DOWNLOAD BUTTON ---
-st.subheader("1. Prepare Test Data")
-sample_file_path = "final_test_upload.csv" 
+st.subheader("1. Download Test Data")
+sample_file_path = "test_data.csv" 
 
 if os.path.exists(sample_file_path):
     with open(sample_file_path, "rb") as file:
         st.download_button(
             label="📥 Download Sample Test CSV",
             data=file,
-            file_name="final_test_upload.csv",
+            file_name="test_data.csv",
             mime="text/csv"
         )
 else:
-    st.warning("Ensure 'final_test_upload.csv' is in your GitHub root.")
+    st.warning("Ensure 'test_data.csv' is in your GitHub root.")
 
 st.divider()
 
