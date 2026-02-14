@@ -4,11 +4,11 @@ The objective of this project is to predict customer attrition (churn) for a tel
 
 b) Dataset description:
 
-Source: Kaggle - Telco Customer Churn Dataset
-Target Variable: Churn (Yes/No)
-Instance Size: 7,032 rows (after removing nulls from TotalCharges)
-Feature Size: 19 features (initially), expanded via One-Hot Encoding to meet the assignment requirement of ≥12 features.
-Key Features: Tenure, Monthly Charges, Total Charges, Contract Type (Month-to-month, One year, Two year), Internet Service (DSL, Fiber optic), and Payment Method.
+- **Source:** Kaggle - Telco Customer Churn Dataset
+- **Target Variable:** Churn (Yes/No)
+- **Instance Size:** 7,032 rows (after removing nulls from TotalCharges)
+- **Feature Size:** 19 features (initially), expanded via One-Hot Encoding to meet the assignment requirement of ≥12 features.
+- **Key Features:** Tenure, Monthly Charges, Total Charges, Contract Type (Month-to-month, One year, Two year), Internet Service (DSL, Fiber optic), and Payment Method.
 
 c. Models Used & Comparison Table
 
