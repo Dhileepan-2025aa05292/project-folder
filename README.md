@@ -12,10 +12,11 @@ Key Features: Tenure, Monthly Charges, Total Charges, Contract Type (Month-to-mo
 
 c. Models Used & Comparison Table
 
-ML Model Name	Accuracy	AUC	Precision	Recall	F1	MCC
-Logistic Regression	0.7512	0.7966	0.5263	0.6417	0.5783	0.4083
-Decision Tree	0.6697	0.7068	0.4332	0.7861	0.5586	0.3657
-kNN	0.7621	0.7994	0.5558	0.5241	0.5394	0.3795
-Naive Bayes	0.7412	0.8041	0.5102	0.6684	0.5787	0.4043
-Random Forest (Ensemble)	0.7578	0.7849	0.5350	0.6809	0.5992	0.4357
-XGBoost (Ensemble)	0.7621	0.7946	0.5629	0.4706	0.5126	0.3594
+| ML Model Name |	Accuracy |	AUC |	Precision |	Recall |	F1 |	MCC |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Logistic Regression |	0.7512 |	0.7966 |	0.5263 |	0.6417 |	0.5783 |	0.4083 |
+| Decision Tree |	0.6697 |	0.7068 |	0.4332 |	0.7861 |	0.5586 |	0.3657 |
+| kNN |	0.7621 |	0.7994 |	0.5558 |	0.5241 |	0.5394 |	0.3795 |
+| Naive Bayes |	0.7412 |	0.8041 |	0.5102 |	0.6684 |	0.5787 |	0.4043 |
+| Random Forest (Ensemble) |	0.7578 |	0.7849 |	0.5350 |	0.6809 |	0.5992 |	0.4357 |
+| XGBoost (Ensemble) |	0.7621 |	0.7946 |	0.5629 |	0.4706 |	0.5126 |	0.3594 |
