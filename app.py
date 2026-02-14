@@ -23,11 +23,11 @@ if os.path.exists(sample_file_path):
         st.download_button(
             label="📥 Download Sample Test CSV",
             data=file,
-            file_name="telco_test_data.csv",
+            file_name="final_test_upload.csv",
             mime="text/csv"
         )
 else:
-    st.warning("Ensure 'test_data_sample.csv' is in your GitHub root.")
+    st.warning("Ensure 'final_test_upload.csv' is in your GitHub root.")
 
 st.divider()
 
