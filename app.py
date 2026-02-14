@@ -16,7 +16,7 @@ st.markdown("Download the sample test data, then upload it to evaluate performan
 
 # --- DOWNLOAD BUTTON ---
 st.subheader("1. Prepare Test Data")
-sample_file_path = "test_data_sample.csv" 
+sample_file_path = "final_test_upload.csv" 
 
 if os.path.exists(sample_file_path):
     with open(sample_file_path, "rb") as file:
